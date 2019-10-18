@@ -3,12 +3,23 @@
     <div class="col-8">
       <div class="row">
         <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h3 class="card-title">Title</h3>
-              <p class="card-text">Text</p>
-            </div>
-          </div>
+          <mat-card>
+            <mat-card-header>
+              <mat-card-title>
+                <app-header></app-header>
+              </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <mat-tab-group [selectedIndex]="selecionado" 
+              (selectedIndexChange)="selecionado = $event">
+                <mat-tab label="Marca/Modelo">
+                  <app-marca-modelo (proximoClicado)="proximoClicado()"></app-marca-modelo>
+                </mat-tab>
+                <mat-tab label="Valores"></mat-tab>
+                <mat-tab label="Meu Plano"></mat-tab>
+              </mat-tab-group>
+            </mat-card-content>
+          </mat-card>
         </div>
       </div>
     </div>

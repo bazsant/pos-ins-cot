@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StepsComponent implements OnInit {
 
+  selecionado;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  proximoClicado() {    
+    this.selecionado = 1;
   }
 
 }
