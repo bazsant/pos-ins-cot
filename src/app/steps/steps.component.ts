@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { StepsService } from '../steps.service';
 
 @Component({
   selector: 'app-steps',
@@ -8,14 +9,30 @@ import { Component, OnInit } from '@angular/core';
 export class StepsComponent implements OnInit {
 
   selecionado;
+  cotacoes = [];
+  valores = [];
 
-  constructor() { }
+  constructor(private stepsService: StepsService) { }
 
   ngOnInit() {
+    this.stepsService.listarValores().subscribe(x => {
+      this.valores = x
+    })
   }
 
-  proximoClicado() {    
+  proximoClicado(valorId) {
     this.selecionado = 1;
+
+    const valorRastreamento = 54.9;
+    const valor = this.valores.find(x => x[0].bike_price_id === valorId)[2];  
+
+    this.cotacoes = [{
+      valor: valorRastreamento,
+      plano: 'Rastreamento Ituran'
+    }, {
+      valor: valor.parcel + valorRastreamento,
+      plano: 'Ituran Com Seguro'
+    }]
   }
 
 }

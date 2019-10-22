@@ -10,6 +10,8 @@ import { MarcaModeloComponent } from './steps/marca-modelo/marca-modelo.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSelectModule, MatInputModule, MatCardModule, 
   MatTabsModule, MatButtonModule } from '@angular/material';
+import { HttpClientModule } from '@angular/common/http';
+import { ValoresComponent } from './steps/valores/valores.component';
 
 
 @NgModule({
@@ -18,10 +20,12 @@ import { MatSelectModule, MatInputModule, MatCardModule,
     HomeComponent,
     StepsComponent,
     HeaderComponent,
-    MarcaModeloComponent
+    MarcaModeloComponent,
+    ValoresComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSelectModule,
