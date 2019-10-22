@@ -1,0 +1,8 @@
+<div class="card-group">
+  <div *ngFor="let cotacao of cotacoes" class="card">
+    <div class="card-body">
+      <h4 class="card-title">{{cotacao.plano}}</h4>
+      <p class="card-text">apenas {{cotacao.valor | currency:'BRL'}} /mês</p>
+    </div>
+  </div>
+</div>

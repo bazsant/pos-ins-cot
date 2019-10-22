@@ -1,0 +1,552 @@
+[
+    {
+        "id": 264,
+        "name": "3G",
+        "company_id": 1125
+    },
+    {
+        "id": 180,
+        "name": "ABICI",
+        "company_id": 9
+    },
+    {
+        "id": 181,
+        "name": "ARGON 18",
+        "company_id": 32
+    },
+    {
+        "id": 253,
+        "name": "BACCHETTA",
+        "company_id": 989
+    },
+    {
+        "id": 275,
+        "name": "BELL",
+        "company_id": 1235
+    },
+    {
+        "id": 182,
+        "name": "BH BIKES (BEISTEGUI HERMANOS)",
+        "company_id": 36
+    },
+    {
+        "id": 204,
+        "name": "BIANCHI",
+        "company_id": 129
+    },
+    {
+        "id": 230,
+        "name": "BLACK DIAMOND",
+        "company_id": 423
+    },
+    {
+        "id": 267,
+        "name": "BLUE (BLUE COMPETITION CYCLES)",
+        "company_id": 1167
+    },
+    {
+        "id": 284,
+        "name": "BLUE SKY CYCLE CARTS",
+        "company_id": 1506
+    },
+    {
+        "id": 228,
+        "name": "BMC",
+        "company_id": 359
+    },
+    {
+        "id": 183,
+        "name": "BOARDMAN BIKES",
+        "company_id": 44
+    },
+    {
+        "id": 185,
+        "name": "BOTTECCHIA",
+        "company_id": 49
+    },
+    {
+        "id": 247,
+        "name": "BREEZER",
+        "company_id": 941
+    },
+    {
+        "id": 186,
+        "name": "BROMPTON BICYCLE",
+        "company_id": 55
+    },
+    {
+        "id": 258,
+        "name": "B'TWIN",
+        "company_id": 1073
+    },
+    {
+        "id": 187,
+        "name": "CALOI",
+        "company_id": 60
+    },
+    {
+        "id": 188,
+        "name": "CANNONDALE",
+        "company_id": 62
+    },
+    {
+        "id": 189,
+        "name": "CANYON BICYCLES",
+        "company_id": 63
+    },
+    {
+        "id": 191,
+        "name": "CERVÉLO",
+        "company_id": 69
+    },
+    {
+        "id": 246,
+        "name": "CITY BICYCLES COMPANY",
+        "company_id": 937
+    },
+    {
+        "id": 192,
+        "name": "COLNAGO",
+        "company_id": 80
+    },
+    {
+        "id": 266,
+        "name": "COLUMBIA",
+        "company_id": 1146
+    },
+    {
+        "id": 193,
+        "name": "CORIMA",
+        "company_id": 81
+    },
+    {
+        "id": 273,
+        "name": "CORRATEC",
+        "company_id": 1205
+    },
+    {
+        "id": 194,
+        "name": "CUBE",
+        "company_id": 83
+    },
+    {
+        "id": 279,
+        "name": "DECATHLON",
+        "company_id": 1300
+    },
+    {
+        "id": 196,
+        "name": "DE ROSA",
+        "company_id": 96
+    },
+    {
+        "id": 265,
+        "name": "DHS",
+        "company_id": 1127
+    },
+    {
+        "id": 212,
+        "name": "DIAMONDBACK",
+        "company_id": 199
+    },
+    {
+        "id": 219,
+        "name": "EDDY MERCKX",
+        "company_id": 225
+    },
+    {
+        "id": 203,
+        "name": "ELECTRA",
+        "company_id": 125
+    },
+    {
+        "id": 231,
+        "name": "ENVE (ENVE COMPOSITES)",
+        "company_id": 516
+    },
+    {
+        "id": 232,
+        "name": "EPIC",
+        "company_id": 517
+    },
+    {
+        "id": 281,
+        "name": "EVO",
+        "company_id": 1389
+    },
+    {
+        "id": 205,
+        "name": "FALCON",
+        "company_id": 132
+    },
+    {
+        "id": 206,
+        "name": "FELT",
+        "company_id": 136
+    },
+    {
+        "id": 207,
+        "name": "FOCUS",
+        "company_id": 143
+    },
+    {
+        "id": 197,
+        "name": "FUJI",
+        "company_id": 101
+    },
+    {
+        "id": 233,
+        "name": "FULCRUM",
+        "company_id": 545
+    },
+    {
+        "id": 208,
+        "name": "GARY FISHER",
+        "company_id": 149
+    },
+    {
+        "id": 209,
+        "name": "GIANT (AND LIV)",
+        "company_id": 153
+    },
+    {
+        "id": 260,
+        "name": "GREENSPEED",
+        "company_id": 1083
+    },
+    {
+        "id": 202,
+        "name": "GT BICYCLES",
+        "company_id": 119
+    },
+    {
+        "id": 272,
+        "name": "GURU",
+        "company_id": 1193
+    },
+    {
+        "id": 199,
+        "name": "HARO",
+        "company_id": 105
+    },
+    {
+        "id": 234,
+        "name": "HIGHLAND",
+        "company_id": 578
+    },
+    {
+        "id": 248,
+        "name": "HOFFMAN",
+        "company_id": 951
+    },
+    {
+        "id": 251,
+        "name": "HUNTER",
+        "company_id": 972
+    },
+    {
+        "id": 235,
+        "name": "INTENSE",
+        "company_id": 600
+    },
+    {
+        "id": 213,
+        "name": "JAMIS",
+        "company_id": 201
+    },
+    {
+        "id": 210,
+        "name": "KESTREL",
+        "company_id": 194
+    },
+    {
+        "id": 211,
+        "name": "KHS BICYCLES",
+        "company_id": 196
+    },
+    {
+        "id": 236,
+        "name": "KMC",
+        "company_id": 621
+    },
+    {
+        "id": 214,
+        "name": "KONA",
+        "company_id": 203
+    },
+    {
+        "id": 270,
+        "name": "KRON",
+        "company_id": 1190
+    },
+    {
+        "id": 215,
+        "name": "KTM",
+        "company_id": 208
+    },
+    {
+        "id": 216,
+        "name": "KUOTA",
+        "company_id": 209
+    },
+    {
+        "id": 245,
+        "name": "LAPIERRE",
+        "company_id": 929
+    },
+    {
+        "id": 217,
+        "name": "LEMOND RACING CYCLES",
+        "company_id": 213
+    },
+    {
+        "id": 263,
+        "name": "LIGHTSPEED",
+        "company_id": 1111
+    },
+    {
+        "id": 286,
+        "name": "LIV",
+        "company_id": 1561
+    },
+    {
+        "id": 229,
+        "name": "LOOK",
+        "company_id": 369
+    },
+    {
+        "id": 218,
+        "name": "LOTUS",
+        "company_id": 217
+    },
+    {
+        "id": 237,
+        "name": "LOUIS GARNEAU",
+        "company_id": 637
+    },
+    {
+        "id": 287,
+        "name": "MDI",
+        "company_id": 1562
+    },
+    {
+        "id": 190,
+        "name": "MERIDA BIKES",
+        "company_id": 65
+    },
+    {
+        "id": 195,
+        "name": "MONARK",
+        "company_id": 87
+    },
+    {
+        "id": 276,
+        "name": "MONDRAKER",
+        "company_id": 1263
+    },
+    {
+        "id": 201,
+        "name": "MONGOOSE",
+        "company_id": 118
+    },
+    {
+        "id": 280,
+        "name": "MOSSO",
+        "company_id": 1302
+    },
+    {
+        "id": 257,
+        "name": "NINER",
+        "company_id": 1022
+    },
+    {
+        "id": 268,
+        "name": "NIRVE",
+        "company_id": 1176
+    },
+    {
+        "id": 220,
+        "name": "OPEL",
+        "company_id": 249
+    },
+    {
+        "id": 259,
+        "name": "OPUS",
+        "company_id": 1074
+    },
+    {
+        "id": 221,
+        "name": "ORANGE MOUNTAIN BIKES",
+        "company_id": 250
+    },
+    {
+        "id": 49,
+        "name": "ORBEA",
+        "company_id": 251
+    },
+    {
+        "id": 288,
+        "name": "OUTROS",
+        "company_id": 1563
+    },
+    {
+        "id": 238,
+        "name": "PARLEE",
+        "company_id": 700
+    },
+    {
+        "id": 198,
+        "name": "PEUGEOT",
+        "company_id": 102
+    },
+    {
+        "id": 222,
+        "name": "PINARELLO",
+        "company_id": 263
+    },
+    {
+        "id": 262,
+        "name": "PIVOT",
+        "company_id": 1105
+    },
+    {
+        "id": 223,
+        "name": "PLANET X",
+        "company_id": 264
+    },
+    {
+        "id": 225,
+        "name": "QUINTANA ROO",
+        "company_id": 275
+    },
+    {
+        "id": 239,
+        "name": "RHYTHM",
+        "company_id": 747
+    },
+    {
+        "id": 240,
+        "name": "RIDLEY",
+        "company_id": 749
+    },
+    {
+        "id": 241,
+        "name": "RITCHEY",
+        "company_id": 750
+    },
+    {
+        "id": 224,
+        "name": "ROCKY MOUNTAIN BICYCLES",
+        "company_id": 270
+    },
+    {
+        "id": 249,
+        "name": "SANTA CRUZ",
+        "company_id": 965
+    },
+    {
+        "id": 200,
+        "name": "SCHWINN",
+        "company_id": 117
+    },
+    {
+        "id": 226,
+        "name": "SCOTT",
+        "company_id": 296
+    },
+    {
+        "id": 278,
+        "name": "SETTE",
+        "company_id": 1297
+    },
+    {
+        "id": 227,
+        "name": "SPECIALIZED",
+        "company_id": 307
+    },
+    {
+        "id": 242,
+        "name": "TEKTRO",
+        "company_id": 840
+    },
+    {
+        "id": 243,
+        "name": "TH INDUSTRIES",
+        "company_id": 842
+    },
+    {
+        "id": 244,
+        "name": "TIME",
+        "company_id": 850
+    },
+    {
+        "id": 254,
+        "name": "TITAN",
+        "company_id": 991
+    },
+    {
+        "id": 256,
+        "name": "TRANSITION BIKES",
+        "company_id": 1019
+    },
+    {
+        "id": 184,
+        "name": "TREK",
+        "company_id": 47
+    },
+    {
+        "id": 282,
+        "name": "TRIBE BICYCLE CO",
+        "company_id": 1393
+    },
+    {
+        "id": 277,
+        "name": "TRINX",
+        "company_id": 1287
+    },
+    {
+        "id": 250,
+        "name": "VERDE",
+        "company_id": 968
+    },
+    {
+        "id": 283,
+        "name": "VICINI",
+        "company_id": 1481
+    },
+    {
+        "id": 252,
+        "name": "VILANO",
+        "company_id": 981
+    },
+    {
+        "id": 269,
+        "name": "VIVA",
+        "company_id": 1188
+    },
+    {
+        "id": 271,
+        "name": "VIVENTE",
+        "company_id": 1192
+    },
+    {
+        "id": 285,
+        "name": "WILIER",
+        "company_id": 1556
+    },
+    {
+        "id": 261,
+        "name": "YETI",
+        "company_id": 1091
+    },
+    {
+        "id": 255,
+        "name": "YUBA",
+        "company_id": 1003
+    },
+    {
+        "id": 274,
+        "name": "ZINN CYCLES",
+        "company_id": 1215
+    }
+]

@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-8">
+      <mat-form-field class="w-100">
+        <mat-label>Marca da sua bike</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let marca of marcas" [value]="marca.id">
+            {{marca.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-8">
+      <mat-form-field class="w-100">
+        <input type="text" matInput placeholder="Descreva o modelo dela">
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-8">
+      <mat-form-field class="w-100">
+        <mat-label>Quanto ela custa</mat-label>
+        <mat-select [(value)]="valorId">
+          <mat-option *ngFor="let valor of valores" [value]="valor.id">
+            {{valor.valor | currency:'BRL'}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <button mat-raised-button (click)="proximo()" color="primary">Próximo</button>
+    </div>
+  </div>
+</div>
