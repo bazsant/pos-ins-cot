@@ -4414,5 +4414,37 @@
             "plan_code": "mobi_urban",
             "bike_price_amount": 75000.0
         }
+    ],
+    [
+        {
+            "id": 138,
+            "plan_id": 10,
+            "bike_price_id": 139,
+            "parcel": 555.01,
+            "amount": 6552.06,
+            "plan_name": "Performance",
+            "plan_code": "mobi_perform",
+            "bike_price_amount": 80000.0
+        },
+        {
+            "id": 276,
+            "plan_id": 11,
+            "bike_price_id": 139,
+            "parcel": 473.1,
+            "amount": 5569.25,
+            "plan_name": "Ativo",
+            "plan_code": "mobi_active",
+            "bike_price_amount": 80000.0
+        },
+        {
+            "id": 414,
+            "plan_id": 12,
+            "bike_price_id": 139,
+            "parcel": 428.5,
+            "amount": 4914.05,
+            "plan_name": "Urbano",
+            "plan_code": "mobi_urban",
+            "bike_price_amount": 80000.0
+        }
     ]
 ]

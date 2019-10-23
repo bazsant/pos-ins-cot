@@ -12,7 +12,9 @@ export class StepsService {
   listarMarcas(): Observable<any> {
     return this.http.get('/assets/json/marcas.json');
   }
-
+  getPrices(): Observable<any> {
+    return this.http.get('/assets/json/prices.json');
+  }
   listarValores(): Observable<any> {
     return this.http.get('/assets/json/valores.json');
   }
