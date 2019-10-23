@@ -28,10 +28,10 @@ export class StepsComponent implements OnInit {
 
     this.cotacoes = [{
       valor: valorRastreamento,
-      plano: 'Rastreamento Ituran'
+      plano: 'Rastreador Bike Nacional'
     }, {
       valor: valor.parcel + valorRastreamento,
-      plano: 'Ituran Com Seguro'
+      plano: 'Bike com Seguro + Rastreador'
     }]
   }
 
