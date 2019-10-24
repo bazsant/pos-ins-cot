@@ -23,8 +23,8 @@
       <mat-form-field class="w-100">
         <mat-label>Quanto ela custa</mat-label>
         <mat-select [(value)]="valorId">
-          <mat-option *ngFor="let valor of valores" [value]="valor.id">
-            {{valor.valor | currency:'BRL'}}
+          <mat-option *ngFor="let price of prices" [value]="price.id">
+            {{price.amount | currency:'BRL'}}
           </mat-option>
         </mat-select>
       </mat-form-field>

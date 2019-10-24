@@ -12,6 +12,7 @@ import { MatSelectModule, MatInputModule, MatCardModule,
   MatTabsModule, MatButtonModule } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
 import { ValoresComponent } from './steps/valores/valores.component';
+import { MeuPlanoComponent } from './steps/meu-plano/meu-plano.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ValoresComponent } from './steps/valores/valores.component';
     StepsComponent,
     HeaderComponent,
     MarcaModeloComponent,
-    ValoresComponent
+    ValoresComponent,
+    MeuPlanoComponent
   ],
   imports: [
     BrowserModule,

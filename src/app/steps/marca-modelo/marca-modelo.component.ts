@@ -10,7 +10,7 @@ export class MarcaModeloComponent implements OnInit {
 
   marcas = [];
   valorId;
-  valores = [];
+  prices = [];
 
   @Output() proximoClicado = new EventEmitter;
 
@@ -21,9 +21,9 @@ export class MarcaModeloComponent implements OnInit {
       this.marcas = x;
     })
 
-    for (let i = 1; i < 149; i++) {
-      this.valores.push({ id: i, valor: 1000 + (i * 500) })
-    }
+    this.stepsService.getPrices().subscribe(i => {
+      this.prices = i;
+    })
   }
 
   proximo() {
