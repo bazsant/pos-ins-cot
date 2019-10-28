@@ -7,7 +7,7 @@ import swal from 'sweetalert2';
 })
 export class MeuPlanoComponent implements OnInit {
 
-  @Input() cotacao = {};
+  @Input() cotacao: any;
 
   constructor() { }
 
