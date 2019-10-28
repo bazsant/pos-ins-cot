@@ -1,3 +1,25 @@
-<p class="bikeDefault">
-  meu-plano works!
-</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col text-center">
+      <h4>{{cotacao.plano}}</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col text-center">
+      <h5>mensal: {{cotacao.valor | currency:'BRL'}}</h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col text-center">
+      <h5>anual: {{cotacao.valor * 12 | currency:'BRL'}}</h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col text-center">
+      <button mat-raised-button (click)="contratar()" color="primary">Contratar</button>
+    </div>
+  </div>
+</div>

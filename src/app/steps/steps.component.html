@@ -10,16 +10,16 @@
               </mat-card-title>
             </mat-card-header>
             <mat-card-content>
-              <mat-tab-group [selectedIndex]="selecionado" 
+              <mat-tab-group [selectedIndex]="selecionado"
               (selectedIndexChange)="selecionado = $event">
                 <mat-tab label="Marca/Modelo">
                   <app-marca-modelo (proximoClicado)="proximoClicado($event)"></app-marca-modelo>
                 </mat-tab>
                 <mat-tab label="Valores">
-                  <app-valores [cotacoes]="cotacoes"></app-valores>
+                  <app-valores (cotacaoSelecionada)="cotacaoSelecionada($event)" [cotacoes]="cotacoes"></app-valores>
                 </mat-tab>
                 <mat-tab label="Meu Plano">
-                  <app-meu-plano></app-meu-plano>
+                  <app-meu-plano [cotacao]="cotacaoVigente"></app-meu-plano>
                 </mat-tab>
               </mat-tab-group>
             </mat-card-content>

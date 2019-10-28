@@ -1,8 +1,15 @@
 <div class="card-group">
-  <div *ngFor="let cotacao of cotacoes" class="card">
+  <div *ngFor="let cotacao of cotacoes" class="card" (click)="cotacaoClick(cotacao)">
     <div class="card-body">
       <h4 class="card-title">{{cotacao.plano}}</h4>
-      <p class="card-text">apenas {{cotacao.valor | currency:'BRL'}} /mês</p>
+      <p class="card-text">apenas <strong>{{cotacao.valor | currency:'BRL'}}</strong> /mês</p>
+    </div>
+    <div class="card-footer">
+      <ul>
+        <li *ngFor="let item of cotacao.servicos">
+          {{item}}
+        </li>
+      </ul>
     </div>
   </div>
 </div>
