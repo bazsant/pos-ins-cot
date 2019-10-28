@@ -1,3 +1,29 @@
 .card {
     cursor: pointer;
+    margin: 1em;
+    background: #17a6e0;
+    border: 2px solid #fff;
+    border-radius: 15px !important;
+
+    .card-body {
+      flex: initial;
+    }
 }
+
+.card-footer {
+  background-color: initial;
+}
+
+h4 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #264171;
+  strong {
+    font-weight: 800;
+  }
+}
+
