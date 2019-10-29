@@ -1,3 +1,18 @@
 .bikeDefault{
     background-color: aquamarine
 }
+
+.card {
+    margin-top: 1em;
+    background: #a2c301;
+    color: #fff;
+
+    .card-header {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+h5 {
+    font-size: 16px;
+}

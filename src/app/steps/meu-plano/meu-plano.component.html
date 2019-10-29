@@ -1,25 +1,31 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col text-center">
-      <h4>{{cotacao.plano}}</h4>
-    </div>
-  </div>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <div *ngIf="cotacao" class="card">
+        <div class="card-header">
+          {{cotacao.plano}}
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col text-center">
+              <h5>mensal: <strong>{{cotacao.valor | currency:'BRL'}}</strong></h5>
+            </div>
+          </div>
 
-  <div class="row">
-    <div class="col text-center">
-      <h5>mensal: {{cotacao.valor | currency:'BRL'}}</h5>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col text-center">
-      <h5>anual: {{cotacao.valor * 12 | currency:'BRL'}}</h5>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col text-center">
-      <button mat-raised-button (click)="contratar()" color="primary">Contratar</button>
+          <div class="row">
+            <div class="col text-center">
+              <h5>anual: <strong>{{cotacao.valor * 12 | currency:'BRL'}}</strong></h5>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="row">
+            <div class="col text-center">
+              <button mat-raised-button (click)="contratar()" color="primary">Contratar</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
